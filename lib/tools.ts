@@ -1,4 +1,4 @@
-import { Braces, Key, Binary, LucideIcon } from "lucide-react";
+import { Braces, Key, Binary, Regex, LucideIcon } from "lucide-react";
 
 export interface Tool {
   id: string;
@@ -33,6 +33,14 @@ export const tools: Tool[] = [
     icon: Binary,
     path: "/tools/base64",
     category: "encoders",
+  },
+  {
+    id: "regex-tester",
+    name: "RegEx Tester",
+    description: "Test and debug regular expressions with live highlighting",
+    icon: Regex,
+    path: "/tools/regex-tester",
+    category: "formatters",
   },
 ];
 

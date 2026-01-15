@@ -34,6 +34,12 @@ export function Header() {
           >
             Base64
           </Link>
+          <Link
+            href="/tools/regex-tester"
+            className="text-muted-foreground hover:text-foreground transition-colors"
+          >
+            RegEx
+          </Link>
         </nav>
 
         {/* Actions */}
